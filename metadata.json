@@ -1,0 +1,9 @@
+{
+  "uuid": "mawaqit-reminder@local",
+  "name": "Mawaqit Prayer Reminder",
+  "description": "Shows the next prayer + countdown in the top bar and notifies you 5 minutes before each prayer. Reads times from a mawaqit.net mosque page.",
+  "shell-version": ["46"],
+  "url": "https://mawaqit.net",
+  "settings-schema": "org.gnome.shell.extensions.mawaqit-reminder",
+  "gettext-domain": "mawaqit-reminder"
+}

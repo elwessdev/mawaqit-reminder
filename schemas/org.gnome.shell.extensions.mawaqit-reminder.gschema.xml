@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.mawaqit-reminder"
+          path="/org/gnome/shell/extensions/mawaqit-reminder/">
+    <key name="mosque-url" type="s">
+      <default>""</default>
+      <summary>Mawaqit mosque page URL</summary>
+      <description>Full URL of the mosque page on mawaqit.net (e.g. https://mawaqit.net/en/your-mosque)</description>
+    </key>
+    <key name="remind-minutes" type="i">
+      <default>5</default>
+      <range min="0" max="60"/>
+      <summary>Minutes before prayer to send reminder</summary>
+    </key>
+    <key name="show-seconds" type="b">
+      <default>false</default>
+      <summary>Show seconds in the top-bar countdown</summary>
+    </key>
+    <key name="panel-position" type="s">
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+        <choice value="right"/>
+      </choices>
+      <default>"center"</default>
+      <summary>Top panel position</summary>
+      <description>Where to place the indicator in the top panel: left, center, or right.</description>
+    </key>
+  </schema>
+</schemalist>
